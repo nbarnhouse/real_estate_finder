@@ -14,14 +14,14 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.ico"
     },
     "plugins": [
       "expo-router",
@@ -32,6 +32,18 @@
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-font", 
+        {"fonts": [
+          "./assets/fonts/Rubik-Bold.ttf",
+          "./assets/fonts/Rubik-ExtraBold.ttf",
+          "./assets/fonts/Rubik-Light.ttf",
+          "./assets/fonts/Rubik-Medium.ttf",
+          "./assets/fonts/Rubik-Regular.ttf",
+          "./assets/fonts/Rubik-SemiBold.ttf"
+          ]
         }
       ]
     ],
